@@ -24,7 +24,7 @@
 
 ## Cria conta no GitHub
 
-https://github.com/roselimariano38/curso-front-end
+criar clone https://github.com/roselimariano38/curso-front-end
 
 ## Clonar o projeto
 
