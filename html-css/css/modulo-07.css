@@ -1,0 +1,99 @@
+/*
+	Arquivo CSS geral com estilos dos elementos de todas as páginas
+*/
+@import 'tabela.css' ;
+* {
+	dimensionamento de caixa: caixa de borda;
+  }
+  
+  html{
+	  margem: 0;
+	  preenchimento: 0;
+	  tamanho da fonte: 62,5%; /* equivalente a 10px */
+  }
+  
+  corpo {
+	  cor de fundo: branco;
+  }
+  
+  h1 {
+	  tamanho da fonte: 2rem;
+  }
+  
+  h2 {
+	  tamanho da fonte: 1.8rem;
+  }
+  
+  Formato {
+	  fundo: #eee;
+	  preenchimento: 10px;
+  }
+  
+  forma div {
+	  fundo: #fff;
+	  borda inferior: 1px sólido #33f;
+	  margem: 1rem;
+	  preenchimento: 2rem;
+  }
+  
+  etiqueta {
+	  margem inferior: 1rem;
+	  tamanho da fonte: 1.4rem;
+	  família de fontes: sem serifa;
+	  intensidade da fonte: Negrito;
+	  cor: #66F;
+  }
+  
+  entrada {
+	  preenchimento: 1rem;
+  }
+  
+  [type="text"], [type="email"], textarea, label {
+	  exibição: bloco;
+	  largura: 100%;
+  }
+  
+  cabeçalho {
+	cor de fundo: #333;
+	preenchimento: 20px;
+	alinhamento de texto: centro;
+	tamanho da fonte: 35px;
+	cor branca;
+  }
+  
+  navegação {
+	flutuar: esquerda;
+	largura: 30%;
+	preenchimento: 20px;
+  }
+  
+  navegue {
+	tipo de estilo de lista: nenhum;
+	preenchimento: 0;
+  }
+  
+  artigo {
+	flutuar: esquerda;
+	preenchimento: 20px;
+	largura: 70%;
+  }
+  
+  seção::depois de {
+	contente: "";
+	exibição: mesa;
+	limpar ambos;
+  }
+  
+  rodapé {
+	cor de fundo: #eee;
+	preenchimento: 10px;
+	alinhamento de texto: centro;
+	cor branca;
+  }
+  
+  @media (largura máxima: 600px) {
+	navegação, artigo {
+	  largura: 100%;
+	  altura: automático;
+	}
+  }

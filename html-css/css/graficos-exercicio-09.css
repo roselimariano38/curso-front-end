@@ -1,0 +1,42 @@
+body{
+    font-size: 1.6em;
+    color: #333;
+
+}
+#grafico-01 {
+
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 40px auto;
+    filter: invert(100%);
+}
+ #grafico-01 img {
+    width: 100%;
+}
+ #grafico-01:hover {
+    filter: grayscale(0%);
+}
+ #imagem-vetorial {
+    width: 200px;
+    margin: 40px auto;
+ }
+  /*filtros*/
+  #grafico-01{
+      filter: drop-shadow (5px 5px 10px #333);
+      max-width: 100%;
+      height:  auto;
+ }
+ /*exercicio  da aula */
+  .filtro{
+      filter: grayscale(100%); /*escala de cinza*/
+      filter: blur(5px);/*desfoque*/
+      filter: brightness(50%); /*brilho de 100% é o normal*/
+      filter: invert(100%);/*inversão de cores*/
+      filter: opacity(50%);
+      filter: saturate(100%) sepia(100%);/* combinar filtros separados por espaços*/
+ } 
+  .filtro:hover {
+    filter: grayscale(0%);
+ }

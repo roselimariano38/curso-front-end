@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+   }
+   html {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 62.5%; 
+   }  
+   body {
+   background-color: #2D636B;
+   font-family: 'Libre Baskerville', serif
+  } 
+    h2 {
+    color: #fff;
+  }
+     p {
+      font-size: 1.8rem;
+   }
+    a{
+  
+      text-decoration: none;
+      font-size: 2em;
+      color: #fff;
+  }
+   ul li {
+    font-size: 0.6em; 
+    width: 80%;
+    height: 3rem; 
+   }
+   header {
+    background-image: url(../imagens/images-digital.jpg);
+    padding: 4rem;
+    text-align: center;
+    font-size: 4rem;  
+   }
+    nav {
+     
+      text-align: center;
+      float: left;
+      width:30%;
+      background-color: #ABE5EE;
+      height: 90rem; 
+   }
+    nav ul{
+    list-style-type: none;
+    background-image: url(../imagens/imagem-digital2.jpg);
+  }
+   .coluna {
+    display: block;
+    width: 50%;
+    float: left;
+    height: auto;
+  }
+    /*background:#63D8EB;  
+   border: 1px solid #333; */
+   .coluna-3{
+     columns: 100px 3;
+     text-align: center
+  }
+   .texto{
+     max-width: 100%;
+     height: auto;
+  }
+   .coluna-cor {
+     width: 100%;
+  }
+   iframe {
+     width: 100%;
+  }
+   
+   img {
+     width: 100%;
+     height: auto;
+  }
+   article {
+    float: left;
+    width: 70%;
+    height: 90rem;
+    background-color: #ABE5EE;
+     
+   }
+    footer{
+      
+     background-color: #2D636B;
+     padding: 1rem;
+     text-align: center;
+     color: #fff;
+    }  
+     @media (min-width: 800px){
+      body{
+        background-color: #022a30;  
+    }
+    p {
+      color: #488d98;
+    }
+  } 
+   @media ( max-width: 769px) {
+    nav {
+      width: 30vw;
+      float: left;
+      height: 90rem;
+      
+     } 
+    article {
+     width: 67vw;
+     height: 90rem;
+     float: left;
+  
+     }
+    .coluna {
+     width: 50%;
+     height: auto;
+     min-width: unset;
+     }
+     .coluna-cor{
+       width: 100%;
+     }
+  }
+   @media only screen and (  max-width:430px){
+    nav ,
+    article,
+    .coluna {
+        width: 100%;
+        height: auto;
+        min-width: 320px;
+    }
+  }

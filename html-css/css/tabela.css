@@ -1,0 +1,48 @@
+table {
+width: 67%;
+border-collapse: collapse;
+font-family: arial helvetica sans-serif;
+
+
+
+}
+th ,td{
+padding: 13px;
+border: 1.3px solid #000;
+font-family: arial helvetica sans-serif;
+vertical-align:middle;
+font-size: 1.1rem;
+
+
+
+}
+col.r {
+background: #7A1C24;
+
+}
+
+caption {
+border: 1.3px solid #000;
+padding: 10px;
+font-family: arial helvetica sans-serif;
+background: #7A1C24;
+color: #fff;
+font-size: 1.5rem;
+
+
+}
+th {
+background:#ddd ;
+
+}
+.cor{
+background: #ddd;
+}
+
+td {
+color: #fff;
+
+}
+.black {
+color: #000;
+}

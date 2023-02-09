@@ -1,0 +1,108 @@
+       
+        /*exercício para o modúlo 6*/
+*{
+  box-sizing: border-box;
+ }
+ html {
+ 	 margin: 0;
+ 	 padding: 0;
+ 	 font-family: serif;
+ 	 font-size: 62.5%; 
+ }  
+
+body {
+ background-color:yellowgreen;
+}
+  h1,h2,p,li{
+	font-family: cursive;
+	color:#194522;
+
+} 
+h1{
+  color: #fff;
+}
+p{
+	font-size: 1.8rem;
+}
+ h2.Curso {
+ 	text-align: center;
+ 	font-size: 3rem;
+ }
+
+  a{
+
+	text-decoration: none;
+	font-size: 2em;
+	color: #194522;
+} 
+ 
+ul li {
+	font-size: 0.6em; 
+	width: 80%;
+	height: 3rem; 
+}
+  form div {
+
+    background: #fff;
+    border: 1px solid #194522;
+ 	margin: 1rem 2rem;
+ 	padding: 1rem;
+ 	background-color:#DFD770 ;
+ 	font-size: 1.6rem;
+}
+
+ label {
+
+ 	margin-bottom: 0.5rem;
+ 	font-size: 1.2em;
+ 	font-family: inherit;
+ 	font-weight: lighter;
+ 	color: #194522;
+ }
+
+ input {
+ 	 padding: 1rem;
+ 	 font-family: fantasy sans-serif;
+ }
+ 
+ [type="text"] ,[type="email"] ,textarea ,label {	
+ 	width: 100%;
+ 	display: block;
+
+}
+header {
+  background-image: url(../imagens/images-sementes.jpg);
+  padding: 3rem;
+  text-align: center;
+  font-size: 4rem;  
+
+}
+
+  .home01{
+    text-align: center;
+    float: left;
+    width:30%;
+    background: #194522;
+    padding: 0.5rem;
+    font-size: 2rem;
+ 
+    
+  }
+nav ul {
+  list-style-type: none;
+  background-color: #BBDFA3;
+
+}
+
+article {
+  float: left;
+  width: 70%;
+  background-color: #BBDFA3;
+}
+footer {
+  background-color:#194522 ;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: monospace;
+} 

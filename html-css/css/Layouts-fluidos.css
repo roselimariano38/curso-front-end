@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 95vh; /*viewport height */
+    background-color: #efefef;
+    overflow-x: hidden; 
+}
+ 
+h1,h2,p {
+    margin-bottom: 20px;
+}
+div {
+    padding: 20px;
+    margin: 0;
+}
+.width-100 {
+    width: 100%;
+    width: 95vw; /*viewport width */
+    background-color: aqua;
+    padding: 20px;
+    height: 400px;
+   
+}
+
+nav {
+    background-color: grey;
+    width: 20%;
+    float: left;
+    display: table;
+    height: 100%;
+}
+
+article { 
+    background-color: ivory;
+    width: 80%;
+    float: left;
+    height: 100%;
+    box-sizing:border-box; /*considera o padding e border na largura e altura */
+    
+}
+.fixed-width {
+  background-color: lawngreen;
+  width: 200px ;
+  margin: 40px auto;
+  text-align: center;
+}
+.blackground {
+    background-color: lightcoral;
+    background-image: url(../imagens/pattern.png);
+    border: 5px solid coral;
+    height: 25vh;
+  
+}
+    img{
+      width: 600px;
+      height: auto;
+    }
