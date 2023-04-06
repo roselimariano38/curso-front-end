@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # curso-front-end
-=======
+
 # Curso Front-end
 
 ### EBAC
@@ -41,4 +41,4 @@ Informação de alteração
 
 ## GitFlow
 Fluxo do Git
->>>>>>> 566d8ae574130b48d108e46a491e99a4a7a8c91d
+- final
